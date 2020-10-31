@@ -1,0 +1,23 @@
+#divMetaData {
+  position: absolute;
+  left: 640px;
+  top: 10px;
+  width: 300px;
+  margin-left: 10px;
+  border: solid;
+}
+#divMetaBody {
+  margin-left: 20px;
+}
+#divMetaHead {
+  position: relative;
+  width: 290px;
+  color: white;
+  background-color: blue;
+  border: solid;
+}
+#divSelectSampleList {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
