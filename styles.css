@@ -1,0 +1,33 @@
+#divMetaData {
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  width: 300px;
+  margin-left: 10px;
+  border: solid;
+}
+#divMetaBody {
+  margin-left: 20px;
+}
+#divMetaHead {
+  position: relative;
+  width: 290px;
+  color: white;
+  background-color: blue;
+  border: solid;
+}
+#divSelectSampleList {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+#divBubble {
+  position: absolute;
+  left: 360px;
+  top: 500px;
+}
+#divPloty {
+  position: absolute;
+  left: 360px;
+  top: 10px;
+}

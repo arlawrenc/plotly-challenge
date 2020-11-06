@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <!DOCTYPE html>
+    <meta charset="utf-8">
+    <style> 
+
+        .bar { fill: steelblue; }
+
+    </style>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body> 
+
+    <div id="divContent"></div>
+
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            addToSelectList("selectName");
+            createBubble(0);
+            createPloty(0);            
+        });
+    </script>
+
+
+<body>
+    <div id="divSelectSampleList">
+        Select Sample: <select id="selectName" onchange="changeData(this)">
+
+        </select>
+    </div>
+    <br/>
+    <div id="divBubble"></div>
+    <div id="divPloty"></div>
+
+    <div id="divMetaData">
+        <div id="divMetaHead">
+            Sample Meta Data:
+        </div>
+        <div id='divMetaBody'>
+            <div>AGE: <span id="age"></span></div> 
+            <div>BBTYPE: <span id="bbtype"></span></div>         
+            <div>ETHNICITY: <span id="ethnicity"></span></div>
+            <div>GENDER: <span id="gender"></span></div>
+            <div>LOCATION: <span id="location"></span></div>
+            <div>WFREQ: <span id="wfreq"></span></div>
+            <div>ID: <span id="demoId"></span></div>
+        </div>
+    </div>
+    <script src="sample-data.js"></script>
+    <script src="app.js"></script>    
+    <script src='ploty.js'> </script>
+    <script src='bubble.js'></script>
+</body>
